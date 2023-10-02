@@ -1,0 +1,665 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+button{
+    border: none;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.about a{
+    color: #7E7F86;
+font-size: 20px;
+font-weight: 500;
+margin: 20px;
+text-decoration: none;
+}
+.about{
+    margin-right: 300px;
+}
+
+.hero-left h5{
+    color: #666;
+font-size: 24px;
+font-weight: 500;
+line-height: 120%; 
+margin: 50px 0 0 0;
+}
+.hero-left h1{
+    color: #25202F;
+font-size: 60px;
+font-weight: 700;
+line-height: 120%;
+padding: 13px 0 13px 0;
+}
+.hero-left h6{
+    color: #25202F;
+font-size: 24px;
+font-weight: 400;
+margin: 20px 0 55px 0;
+}
+.hero-left button{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 500;
+width: 200px;
+height: 60px;
+border-radius: 100px;
+background: #8643DC;
+}
+
+
+
+
+
+.hero-right {
+  position: relative;
+}
+
+
+.user{
+    position: absolute;
+    margin-left: 575px;
+    bottom:-25px;
+    top: -500px;
+    animation: user 2s;
+}
+@keyframes user{
+    0%{
+        transform: translateX(600px);
+    }
+}
+
+.Ellipse14{
+    position: absolute;
+    right: -130px;
+    bottom: -330px;
+    z-index: -1;
+}
+.Ellipse15{
+    position: absolute;
+    right: 100px;
+    bottom: -390px;
+    z-index: -1;
+
+}
+.Ellipse16{
+    position: absolute;
+    right: -90px;
+    bottom: 200px;
+    top: -460px;
+    z-index: -1;
+
+}
+.Group1{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    animation: Group1 2s;
+}
+@keyframes Group1 {
+    0%{
+        transform:translateY(400px);
+    }
+}
+.Group3{
+    position: absolute;
+    right: 660px;
+    bottom: 340px;
+    animation: Group3 2s;
+}
+@keyframes Group3{
+    0%{
+        transform: translateY(-400px);
+    }
+}
+.Group4{
+    position: absolute;
+    right: 560px;
+    top: 180px;
+    animation: Group4 2s;
+}
+@keyframes Group4{
+    0%{
+        transform: translateX(-400px);
+    }
+}
+.Group6{
+    position: absolute;
+    right: 120px;
+    bottom: 300px;
+    animation: Group6 2s;
+}
+@keyframes Group6{
+    0%{
+        transform: translateY(400px);
+    }
+}
+.Group10{
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+    animation: Group10 2s;
+}
+@keyframes Group10{
+    0%{
+        transform: translateY(300px) rotate(180deg);
+    }
+}
+.Group7{
+    position: absolute;
+    right: -30px;
+   bottom:220px ; 
+   animation: Group7 2s;
+}
+@keyframes Group7 {
+    0%{
+        transform: translateX(-300px);
+    }
+}
+.Group8{
+    position: absolute;
+    right: 650px;
+    bottom: -45px;
+    animation: Group8 2s;
+}
+@keyframes Group8{
+    0%{
+        transform: translateY(-300px) rotate(270deg);
+    }
+}
+.Group9{
+    position: absolute;
+    right:130px;
+    bottom: 300px;
+    animation: Group9 2s;
+}
+@keyframes Group9{
+    0%{
+        transform: translateX(300px) translateY(-200px) rotate(190deg);
+    }
+}
+.Group11{
+    position: absolute;
+    right: -50px;
+    bottom: 250px;
+    animation: Group11 2s;
+}
+@keyframes Group11 {
+    0%{
+        transform: translateY(-400px) rotate(180deg);
+    }
+}
+.Group12{
+    position: absolute;
+    right: 300px;
+    bottom: 470px;
+    animation: Group12 2s;
+}
+@keyframes Group12{
+    0%{
+        transform: translateX(-300px);
+    }
+}
+
+
+
+
+
+
+.service h5{
+    color: #8643DC;
+font-family: Red Hat Display;
+font-size: 18px;
+font-weight: 400;
+margin-top: 250px;
+
+}
+.service h1 {
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 36px;
+font-weight: 700;
+padding: 20px 0;
+}
+
+.smart h3{
+    padding: 20px;
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 24px;
+font-weight: 500;
+margin: 20px;
+}
+.smart p{
+    color: #47444E;
+font-size: 16px;
+font-weight: 380;
+line-height: 32px;
+}
+.smarts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.smart-img{
+    display: flex;
+    align-items: center;
+}
+.smart2 h3{
+    padding: 20px;
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 24px;
+font-weight: 500;
+margin: 20px;
+}
+.smart2 p{
+    color: #47444E;
+font-size: 16px;
+font-weight: 380;
+line-height: 32px;
+}
+
+.smart-img2{
+    display: flex;
+    align-items: center;
+}
+.smart1 h3{
+    padding: 20px;
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 24px;
+font-weight: 500;
+margin: 20px;
+}
+.smart1 p{
+    color: #47444E;
+font-size: 16px;
+font-weight: 380;
+line-height: 32px;
+}
+
+.smart-img1{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.project h3{
+    color: #8643DC;
+font-size: 18px;
+font-weight: 400;
+margin-top: 200px;
+}
+.project h1{
+    color: #25202F;
+    font-size: 36px;
+    font-weight: 700;
+}
+.project-img {
+    display: flex;
+}
+.project img{
+    padding: 15px 0;
+}
+.project h4{
+    color: #25202F;
+font-size: 24px;
+font-weight: 500;
+text-decoration-line: underline;
+}
+.project-h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+.client h5{
+    color: #8643DC;
+font-size: 18px;
+font-weight: 400;
+}
+.client h1{
+    color: #25202F;
+font-size: 36px;
+font-weight: 700;
+padding: 40px 0 ;
+}
+.withs{
+    width: 170px;
+height: 170px;
+    border-radius: 10px;
+border: 1px solid #FFE7F0;
+background: #FFF6FA;
+display: flex;
+justify-content: space-between;
+animation: withs 2s;
+}
+@keyframes withs{
+    0%{
+        transform: translateX(-300px);
+    }
+}
+.with h6{
+    color: #000;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+margin-left: 55px;
+}
+.with img{
+margin: 30px 0;
+margin-left:55px ;
+}
+.withs-with{
+    display: flex;
+}
+.withs1{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid #CAFFE1;
+    background: #EDFFF5;
+    animation: withs1 2s;
+}
+@keyframes withs1{
+    0%{
+        transform: translateX(200px) translateY(200px);
+    }
+}
+.with1 h6{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 45px;
+}
+.with1 img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.withs2{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+border: 1px solid #DDF5FF;
+background: #F5FCFF;
+animation: withs2 2s;
+}
+@keyframes withs2{
+    0%{
+        transform: translateX(200px) translateY(-200px) rotate(270deg);
+    }
+}
+.with2 h6{
+    color: #000;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+margin-top: 45px;
+
+}
+.with2 img{
+    margin-top: 20px;
+    margin-left: 60px; 
+}
+.withs3{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid #FFEEC9;
+    background: #FFFBF2;
+    animation: withs3 2s;
+}
+@keyframes withs3{
+    0%{
+        transform: translateX(200px) translateY(200px) rotate(180deg);
+    }
+}
+.with3 h6{
+    color: #000;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+margin-top: 45px;
+
+}
+.with3 img{
+    margin-top: 20px;
+    margin-left: 60px; 
+}
+.withs4{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid #DBFFC3;
+    background: #F4FFED;
+    animation: withs4 2s;
+}
+@keyframes withs4{
+    0%{
+        transform: translateX(300px);
+    }
+}
+.with4 h6{
+    color: #000;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+margin-top: 45px;
+
+}
+.with4 img{
+    margin-top: 20px;
+    margin-left: 60px; 
+}
+.clients{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+.people {
+    padding: 150px 0;
+}
+.people h5{
+    color: #8643DC;
+font-size: 18px;
+font-weight: 400;
+}
+.people h1{
+    color: #25202F;
+font-size: 36px;
+font-weight: 700;
+}
+.people img{
+    padding: 10px;
+}
+.people-title {
+    display: flex;
+    justify-content: space-between;
+}
+.people-title-person {
+    text-align: center;
+}
+.person-top {
+    margin-top: 100px;
+}
+.person-bottom {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.people-title-person h3{
+    padding: 45px;
+    color: #636066;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 32px;
+}
+.people-title-person h1{
+    color: #000;
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+padding: 25px 0 15px 0;
+}
+.people-title-person h2{
+    color: #000;
+font-size: 16px;
+font-weight: 400;
+}
+.people-title-person img{
+    margin-top: 50px;
+}
+
+
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+.blog-images {
+    position: absolute;
+    z-index: -1;
+}
+.blog-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 255px;
+    height: 350px;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0.00) 0%, #25202F 100%);
+}
+.blog-dates {
+    padding-left: 20px;
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 16px;
+font-weight: 500;
+}
+.blog-texts {
+    padding: 0 0 30px 20px;
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 700;
+}
+.blog-date {
+    color: #8643DC;
+font-family: Red Hat Display;
+font-size: 16px;
+font-weight: 500;
+padding: 20px 0 10px 0;
+}
+.blog-text {
+    color: #000;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 700;
+}
+.blog h1 {
+    color: #25202F;
+font-family: Red Hat Display;
+font-size: 36px;
+font-weight: 700;
+}
+.blog h5 {
+    color: #8643DC;
+font-family: Red Hat Display;
+font-size: 18px;
+font-weight: 400;
+}
+
+
+.contact h5 {
+    color: #8643DC;
+font-family: Red Hat Display;
+font-size: 18px;
+font-weight: 400;
+}
+.contact-text h1 {
+    color: #21232D;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 500;
+line-height: 52px; 
+}
+.contact-text a {
+    color: #8643DC;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+text-decoration-line: underline;
+text-transform: lowercase;
+}
+.contact-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+.contact-inputs input {
+    padding: 15px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #DAD2E3;
+    color: black;
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 400;
+}
+.contact button {
+    color: #FFF;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 18px;
+font-weight: 500;
+border-radius: 100px;
+background: #8643DC;
+padding: 15px 45px;
+}
+.footer {
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+.footer h1 {
+    color: #21232D;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 36px;
+font-weight: 500;
+padding-bottom: 30px;
+}
+.footer-block a {
+    padding: 0 15px;
+}
